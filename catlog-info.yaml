@@ -6,7 +6,7 @@ annotations:
   confluence/page: TestData
 spec:
   type: service
-  owner: ''
+  owner: 'admin'
   lifecycle: experimental
   projectInfo:
     projectName: TestData
