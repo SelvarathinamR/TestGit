@@ -1,55 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: TestData
-annotations:
-  confluence/page: TestData
-  backstage.io/techdocs-ref: dir:.
+  name: "Test-1"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: 'admin'
+  owner: user:guest
   lifecycle: experimental
-  projectInfo:
-    projectName: TestData
-    moduleName: NM
-    informationAuthor: 'Selva'
-    modality: 'IPT'
-    bodyParts: 'Full Body'
-    processingPurpose: 'Verification'
-    protocol: 'Protocol'
-    algorithmType: 'ROI Verify'
-    packageType: 'IDL'
-    supportedOs: 'Win'
-    sourceCodeLanguage: 'IDL'
-    developmentStatus: 'Completed'
-    linkToProject: 'All NM Projects'
-  applicationInfo:
-    linkAPI: ''
-    inputImages: ''
-    inputValues: ''
-    outputImages: ''
-    outputValues: ''
-    limitations: ''
-    algorithmDevelopmentCompany: ''
-  productization:
-    productizedApplication: ''
-    function: ''
-    productizedOwner: ''
-    releaseNotes: ''
-    knowIssues: ''
-  evaluationInformation:
-    evaluationResults: ''
-    evaluationType: ''
-    clinicalData: ''
-  algorithmInformation:
-    developmentPurpose: ''
-    developmentStatus: ''
-    algorithmDevelopmentCompany: ''
-    personinCharge: ''
-    collaborativeResearchPartner: ''
-    existenceofExternalIP: ''
-  technologyInformationforCMRE:
-    fundingProject: ''
-    group: ''
-    TRL: ''
-    projectStatus: ''
